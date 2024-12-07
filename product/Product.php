@@ -24,5 +24,9 @@ class Product
         return $this->db->run($sql, $params);
     }
 
+    public function getAllProducts() {
+        $sql = "SELECT * FROM products";
+        return $this->db->run($sql);
+    }
   
 }
