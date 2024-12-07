@@ -9,7 +9,7 @@ $producten = $productClass->getAllProducts();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productoverzicht</title>
+    <title>Product</title>
     <style>
         table {
             width: 100%;

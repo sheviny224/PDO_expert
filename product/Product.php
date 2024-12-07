@@ -28,5 +28,5 @@ class Product
         $sql = "SELECT * FROM products";
         return $this->db->run($sql);
     }
-  
+//   test
 }
